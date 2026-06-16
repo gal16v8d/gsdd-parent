@@ -5,7 +5,7 @@
 
 	<groupId>com.gsdd</groupId>
 	<artifactId>gsdd-parent</artifactId>
-	<version>1.0.6</version>
+	<version>1.0.7</version>
 	<packaging>pom</packaging>
 
 	<name>gsdd-parent</name>
@@ -19,31 +19,31 @@
 		<project.build.sourceEncoding>${project.encoding}</project.build.sourceEncoding>
 		<project.build.targetEncoding>${project.encoding}</project.build.targetEncoding>
 		<project.reporting.outputEncoding>${project.encoding}</project.reporting.outputEncoding>
-		<java.version>21</java.version>
+		<java.version>25</java.version>
 
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 		<mvn.compiler.plugin.version>3.15.0</mvn.compiler.plugin.version>
-		<mvn.jacoco.plugin.version>0.8.14</mvn.jacoco.plugin.version>
-		<mvn.failsafe.plugin.version>3.5.5</mvn.failsafe.plugin.version>
-		<mvn.surefire.plugin.version>3.5.5</mvn.surefire.plugin.version>
+		<mvn.jacoco.plugin.version>0.8.15</mvn.jacoco.plugin.version>
+		<mvn.failsafe.plugin.version>3.5.6</mvn.failsafe.plugin.version>
+		<mvn.surefire.plugin.version>3.5.6</mvn.surefire.plugin.version>
 		<mvn.javadoc.plugin.version>3.12.0</mvn.javadoc.plugin.version>
-		<mvn.spotless.plugin.version>3.3.0</mvn.spotless.plugin.version>
+		<mvn.spotless.plugin.version>3.6.0</mvn.spotless.plugin.version>
 		<mvn.checkstyle.plugin.version>3.6.0</mvn.checkstyle.plugin.version>
-		<mvn.dependency-check.plugin.version>12.2.0</mvn.dependency-check.plugin.version>
-		<mvn.dependency.plugin.version>3.10.0</mvn.dependency.plugin.version>
+		<mvn.dependency-check.plugin.version>12.2.2</mvn.dependency-check.plugin.version>
+		<mvn.dependency.plugin.version>3.11.0</mvn.dependency.plugin.version>
 		<mvn.source.plugin.version>3.4.0</mvn.source.plugin.version>
 
-		<checkstyle.version>13.3.0</checkstyle.version>
+		<checkstyle.version>13.5.0</checkstyle.version>
 
-		<lombok.version>1.18.42</lombok.version>
+		<lombok.version>1.18.46</lombok.version>
 		<!-- Logger api -->
 		<slf4j.version>1.7.36</slf4j.version>
 		<!-- Logger impl -->
 		<log4j.version>2.24.3</log4j.version>
 		<!-- test dependencies -->
-		<junit.version>6.0.3</junit.version>
-		<mockito.version>5.22.0</mockito.version>
+		<junit.version>6.1.0</junit.version>
+		<mockito.version>5.23.0</mockito.version>
 	</properties>
 
     <dependencyManagement>
